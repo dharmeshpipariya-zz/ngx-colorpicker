@@ -1,0 +1,22 @@
+{
+  "name": "ngx-colorpicker",
+  "version": "0.0.0",
+  "description": "Angular Colorpicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmeshpipariya/ngx-colorpicker.git"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "Dharmesh Pipariya <pipariyadharmesh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dharmeshpipariya/ngx-colorpicker/issues"
+  },
+  "homepage": "https://github.com/dharmeshpipariya/ngx-colorpicker#readme"
+}
