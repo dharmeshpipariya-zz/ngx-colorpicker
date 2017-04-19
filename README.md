@@ -1,0 +1,2 @@
+# ngx-colorpicker
+Angular Colorpicker
