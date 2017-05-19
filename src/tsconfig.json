@@ -1,20 +1,36 @@
-// TypeScript config file that matches all source files in the project. This file is read by 
-// IDEs and ensures that `experimentalDecorator` warnings are not showing up.
 {
   "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "outDir": "../dist/packages/all",
-    "sourceMap": true,
     "inlineSources": true,
-    "target": "es2015",
-    "lib": ["es2015", "dom"],
-    "types": ["jasmine"],
-    "baseUrl": ".",
-    "paths": {
-      "@angular/material": ["./lib/public_api.ts"],
-      "@angular/cdk": ["./cdk/public_api.ts"]
-    }
+    "lib": ["dom", "es2015"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../dist",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "lib/formats.ts",
+    "lib/helpers.ts",
+    "lib/colorpicker.module.ts",
+    "lib/colorpicker.service.ts",
+    "lib/colorpicker.component.ts",
+    "lib/colorpicker.directive.ts"
+  ],
+  "angularCompilerOptions": {
+    "skipMetadataEmit" : false,
+    "skipTemplateCodegen": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true
   }
 }
